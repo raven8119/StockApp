@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "xJXPKsYDzerQPF8MVpyWJa9L8xCKyhqDsVDgVz5ECOn0UTDXH5Mcs50BIHKKnA39jWL+LLhF4k08sRWhgSaFEQ==",
+  "success": true,
+  "projectFilePath": "D:\\Uni Work\\SDAM2\\~SDAM2 Assignment\\StockAppV2\\StockAppV2\\StockAppV2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tehaa\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0\\microsoft.win32.systemevents.7.0.0.nupkg.sha512",
+    "C:\\Users\\tehaa\\.nuget\\packages\\system.configuration.configurationmanager\\7.0.0\\system.configuration.configurationmanager.7.0.0.nupkg.sha512",
+    "C:\\Users\\tehaa\\.nuget\\packages\\system.data.oledb\\7.0.0\\system.data.oledb.7.0.0.nupkg.sha512",
+    "C:\\Users\\tehaa\\.nuget\\packages\\system.diagnostics.performancecounter\\7.0.0\\system.diagnostics.performancecounter.7.0.0.nupkg.sha512",
+    "C:\\Users\\tehaa\\.nuget\\packages\\system.drawing.common\\7.0.0\\system.drawing.common.7.0.0.nupkg.sha512",
+    "C:\\Users\\tehaa\\.nuget\\packages\\system.security.cryptography.protecteddata\\7.0.0\\system.security.cryptography.protecteddata.7.0.0.nupkg.sha512",
+    "C:\\Users\\tehaa\\.nuget\\packages\\system.security.permissions\\7.0.0\\system.security.permissions.7.0.0.nupkg.sha512",
+    "C:\\Users\\tehaa\\.nuget\\packages\\system.windows.extensions\\7.0.0\\system.windows.extensions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
