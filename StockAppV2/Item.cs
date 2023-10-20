@@ -109,7 +109,6 @@ namespace StockAppV2
             OleDbCommand insertCommand = new OleDbCommand(insertQuery, connection);
 
             insertCommand.ExecuteNonQuery();
-            // Test
         }
     }
 }

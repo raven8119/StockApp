@@ -31,12 +31,17 @@
             addStockItemBtn = new Button();
             addQtyBtn = new Button();
             exitBtn = new Button();
+            remStockItemBtn = new Button();
+            remQtyBtn = new Button();
+            logOutBtn = new Button();
+            viewlogBtn = new Button();
+            viewStockBtn = new Button();
             SuspendLayout();
             // 
             // addStockItemBtn
             // 
             addStockItemBtn.Cursor = Cursors.Hand;
-            addStockItemBtn.Location = new Point(167, 134);
+            addStockItemBtn.Location = new Point(89, 89);
             addStockItemBtn.Name = "addStockItemBtn";
             addStockItemBtn.Size = new Size(146, 53);
             addStockItemBtn.TabIndex = 0;
@@ -47,7 +52,7 @@
             // addQtyBtn
             // 
             addQtyBtn.Cursor = Cursors.Hand;
-            addQtyBtn.Location = new Point(167, 193);
+            addQtyBtn.Location = new Point(89, 148);
             addQtyBtn.Name = "addQtyBtn";
             addQtyBtn.Size = new Size(146, 53);
             addQtyBtn.TabIndex = 1;
@@ -58,7 +63,7 @@
             // exitBtn
             // 
             exitBtn.Cursor = Cursors.Hand;
-            exitBtn.Location = new Point(167, 252);
+            exitBtn.Location = new Point(241, 266);
             exitBtn.Name = "exitBtn";
             exitBtn.Size = new Size(146, 53);
             exitBtn.TabIndex = 2;
@@ -66,12 +71,67 @@
             exitBtn.UseVisualStyleBackColor = true;
             exitBtn.Click += exitBtn_Click;
             // 
+            // remStockItemBtn
+            // 
+            remStockItemBtn.Cursor = Cursors.Hand;
+            remStockItemBtn.Location = new Point(241, 89);
+            remStockItemBtn.Name = "remStockItemBtn";
+            remStockItemBtn.Size = new Size(146, 53);
+            remStockItemBtn.TabIndex = 3;
+            remStockItemBtn.Text = "Remove Stock Item";
+            remStockItemBtn.UseVisualStyleBackColor = true;
+            // 
+            // remQtyBtn
+            // 
+            remQtyBtn.Cursor = Cursors.Hand;
+            remQtyBtn.Location = new Point(241, 148);
+            remQtyBtn.Name = "remQtyBtn";
+            remQtyBtn.Size = new Size(146, 53);
+            remQtyBtn.TabIndex = 4;
+            remQtyBtn.Text = "Remove Quantity";
+            remQtyBtn.UseVisualStyleBackColor = true;
+            // 
+            // logOutBtn
+            // 
+            logOutBtn.Cursor = Cursors.Hand;
+            logOutBtn.Location = new Point(89, 266);
+            logOutBtn.Name = "logOutBtn";
+            logOutBtn.Size = new Size(146, 53);
+            logOutBtn.TabIndex = 5;
+            logOutBtn.Text = "Log Out";
+            logOutBtn.UseVisualStyleBackColor = true;
+            // 
+            // viewlogBtn
+            // 
+            viewlogBtn.Cursor = Cursors.Hand;
+            viewlogBtn.Location = new Point(89, 207);
+            viewlogBtn.Name = "viewlogBtn";
+            viewlogBtn.Size = new Size(146, 53);
+            viewlogBtn.TabIndex = 6;
+            viewlogBtn.Text = "View Logs";
+            viewlogBtn.UseVisualStyleBackColor = true;
+            // 
+            // viewStockBtn
+            // 
+            viewStockBtn.Cursor = Cursors.Hand;
+            viewStockBtn.Location = new Point(241, 207);
+            viewStockBtn.Name = "viewStockBtn";
+            viewStockBtn.Size = new Size(146, 53);
+            viewStockBtn.TabIndex = 7;
+            viewStockBtn.Text = "View Stock Levels";
+            viewStockBtn.UseVisualStyleBackColor = true;
+            // 
             // optionsForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(482, 453);
             ControlBox = false;
+            Controls.Add(viewStockBtn);
+            Controls.Add(viewlogBtn);
+            Controls.Add(logOutBtn);
+            Controls.Add(remQtyBtn);
+            Controls.Add(remStockItemBtn);
             Controls.Add(exitBtn);
             Controls.Add(addQtyBtn);
             Controls.Add(addStockItemBtn);
@@ -86,5 +146,10 @@
         private Button addStockItemBtn;
         private Button addQtyBtn;
         private Button exitBtn;
+        private Button remStockItemBtn;
+        private Button remQtyBtn;
+        private Button logOutBtn;
+        private Button viewlogBtn;
+        private Button viewStockBtn;
     }
 }

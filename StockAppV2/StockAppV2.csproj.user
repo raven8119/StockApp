@@ -13,5 +13,8 @@
     <Compile Update="optionsForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="removeQuantityForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>
